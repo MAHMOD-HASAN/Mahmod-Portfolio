@@ -23,13 +23,21 @@ const ProjectDetails = (props) => {
     return (
         <Container className='mt-5'>
             <Grid container spacing={2}>
-             <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6}
+             data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="2000"
+             >
                 <img
                 width="100%"
                 height="400px"
                 src={project?.image} alt="" />
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6}
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="2000"
+            >
             <Typography style={{fontWeight : 600, textTransform : 'uppercase'}} variant='h4' color="indigo">{project?.title}</Typography>
             <Typography variant="body2">Details Information</Typography>
                <ul>

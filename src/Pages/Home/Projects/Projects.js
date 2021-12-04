@@ -41,7 +41,11 @@ function Project (props) {
     <>   
    
         <Grid container spacing={2}>
-             <Grid item xs={12} md={6}>
+             <Grid item xs={12} md={6}
+             data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="2000"
+             >
                 <img
                 width="100%"
                 height="400px"
