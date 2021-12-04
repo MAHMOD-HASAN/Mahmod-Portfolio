@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AboutMe from "./Pages/AboutMe/AboutMe";
 import ContactMe from "./Pages/Home/ContactMe/ContactMe";
 import Footer from "./Pages/Home/Footer/Footer";
 import Home from "./Pages/Home/Home/Home";
@@ -24,6 +25,10 @@ function App() {
         </Route>
         <Route exact path='/project'>
             <Projects></Projects>
+        </Route>
+
+        <Route exact path='/about'>
+            <AboutMe></AboutMe>
         </Route>
         <Route path='/project/:projectId'>
             <ProjectDetails></ProjectDetails>

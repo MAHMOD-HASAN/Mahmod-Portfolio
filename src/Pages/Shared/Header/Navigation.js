@@ -30,6 +30,13 @@ const Navigation = () => {
         </ListItem>
         <ListItem button>
           <ListItemText>
+            <Link style={{ textDecoration: "none" }} to="/about">
+              About Me
+            </Link>
+          </ListItemText>
+        </ListItem>
+        <ListItem button>
+          <ListItemText>
             <Link style={{ textDecoration: "none" }} to="/contact">
               Contact
             </Link>
@@ -85,6 +92,9 @@ const Navigation = () => {
             </Link>
             <Link className={navItem} to="/project">
               <Button variant="contained">Project</Button>
+            </Link>
+            <Link className={navItem} to="/about">
+              <Button variant="contained">About Me</Button>
             </Link>
             <Link className={navItem} to="/contact">
               <Button variant="contained">Contact</Button>
