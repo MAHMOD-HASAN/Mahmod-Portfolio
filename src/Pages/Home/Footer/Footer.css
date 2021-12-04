@@ -1,0 +1,38 @@
+.footer {
+    background-color: #fff;
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+.footer .social .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.footer ul {
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.footer ul a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.7;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer small {
+    display: block;
+    text-align: center;
+    color: inherit;
+    opacity: 0.8;
+    font-size: 15px;
+}

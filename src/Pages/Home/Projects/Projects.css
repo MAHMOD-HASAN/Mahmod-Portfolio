@@ -1,0 +1,17 @@
+.btn-regular {
+    background : linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    /* display: block; */
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.link {
+    text-decoration: none;
+    margin: 0 auto;
+}
+.list {
+    font-size: 20px;
+    font-style: italic;
+}
